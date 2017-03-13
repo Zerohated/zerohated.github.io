@@ -1,2 +1,2 @@
 ## 无辜的美食家
-[msj.md](msj.md "点这里")
+[msj.md](click here "点这里")
