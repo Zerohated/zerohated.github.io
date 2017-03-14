@@ -1,2 +1,2 @@
 ## 无辜的美食家
-[link](msj.md "231")
+[link](msj.md)
