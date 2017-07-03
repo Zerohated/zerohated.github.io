@@ -1,4 +1,8 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
