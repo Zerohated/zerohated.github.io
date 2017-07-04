@@ -1,9 +1,14 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -12,6 +17,10 @@
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
