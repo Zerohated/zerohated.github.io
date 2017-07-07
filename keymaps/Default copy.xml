@@ -1,11 +1,17 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
@@ -26,6 +32,8 @@
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="IpnbRunCellInplaceAction" />
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push" />
   <action id="ViewSource" />
 </keymap>
