@@ -4,9 +4,14 @@
     // localStorage.clear()
     // window.location.href="http://durian.imnumerique.com/dist/?from=singlemessage#/products/f8094ba9-049f-4cec-8127-69add3a90599"; 
     window.onload = function (){
-       var aCookie = document.cookie;
-      alert('cookie info:\n'+aCookie);
+        var aCookie = document.cookie;
+        document.write("1"+aCookie);
+      for (var i=0;i<localStorage.length;i++)
+        {
+        document.write(localStorage.key(i));
+        }
     }
     </script> 
+    <div id='output'></div>
   </body>
 </html>
