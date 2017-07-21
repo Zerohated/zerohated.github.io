@@ -1,14 +1,11 @@
 <script language="javascript"type="text/javascript"> 
 window.location.href="http://durian.imnumerique.com/dist/#/products/f8094ba9-049f-4cec-8127-69add3a90599"; 
-function delAllCookie(){    
-      var myDate=new Date();    
-      myDate.setTime(-1000);//设置时间    
-      var data=document.cookie;    
-      var dataArray=data.split("; ");    
-      for(var i=0;i<dataArray.length;i++){    
-           var varName=dataArray[i].split("=");    
-           document.cookie=varName[0]+"=''; expires="+myDate.toGMTString();    
-      }
-}
-delAllCookie();
+function clearAllCookie() {  
+    var keys = document.cookie.match(/[^ =;]+(?=\=)/g);  
+    if(keys) {  
+        for(var i = keys.length; i--;)  
+            document.cookie = keys[i] + '=0;expires=' + new Date(0).toUTCString()  
+    }  
+}  
+clearAllCookie();
 </script> 
