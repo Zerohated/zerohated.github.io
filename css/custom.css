@@ -1,0 +1,11 @@
+.panel-default{
+  height: 90vh;
+  overflow-y: scroll;
+}
+body{
+  overflow: hidden;
+}
+.alert-warning{
+  visibility: collapse;
+  height:45px;
+}
