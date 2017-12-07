@@ -14,59 +14,21 @@
         .container {
             background-color: burlywood;
             border: 1px solid black;
-            height: 100vh;
-        }
-        /* 提示文字紧贴底部 */
-        .bottom{
-            position: absolute;
-            margin: 0;
-            padding: 0;
-            bottom: 0;
-        }
-        /* absolute生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 */
-        .absolute{
-            background-color: blue;
-            border: 1px solid black;
-            height: 20%;
-            width: 20%;
-            position: absolute;
-            top: 50%;
-            left: 0;
-        }
-        /* fixed生成绝对定位的元素，相对于浏览器窗口进行定位。 */
-        .fixed{
-            background-color: yellowgreen;
-            border: 1px solid black;
-            height: 20%;
-            width: 20%;
-            position: fixed;
-            top:50%;
-            right: 0;
-            
-        }
-        .tie{
-            background-color: yellow;
             height: 100%;
-            width:10%;
-            border: 1px solid black;
-            margin: auto;
+            position: fixed;
+        }
+        .ruler{
+            top: 506px;
+            position: relative;
+            background-color: red;
         }
         
     </style>
 </head>
 <body>
     <div class="container">
-        <p class="bottom">这个高度100%</p>
-        <div class="tie">
-            高度100%的长条
-        </div>
-        <div class="absolute">
-            绝对定位
-        </div>
-        <div class="fixed">
-            相对定位
-        </div>    
-        
+        高度使用100%        
+        <div class="ruler">ruler</div>
     </div>
 </body>
 </html>
