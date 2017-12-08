@@ -14,23 +14,51 @@
         .container {
             background-color: burlywood;
             border: 1px solid black;
-            height: 100%;
-            position: fixed;
+        }
+        .content{
+            height: 1000px;
+            width: 100%;
+            border: 1px solid green;
         }
         /* 标尺 */
         .ruler{
-            top: 95%;
-            position: relative;
+            top: 50%;
+            position: fixed;
             background-color: red;
-            border: 1px solid black;
+            border: 2px solid black;
         }
-        
+        .right{
+            top:50%;
+            background-color: red;
+            border: 2px solid black;
+            position: absolute;
+            left:50%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        高度使用100%        
-        <div class="ruler">ruler</div>
+        <div class="content">高度使用100%
+            <ul>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+
+            </ul>
+            <div class="ruler">ruler</div>
+            <div class="right">absolute</div>
+        </div>
     </div>
 </body>
 </html>
