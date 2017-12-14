@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        /* 高度撑满 */
+        .container {
+            background-color: burlywood;
+            border: 1px solid black;
+        }
+        .content{
+            height: 1000px;
+            width: 100%;
+            border: 1px solid green;
+        }
+        /* 标尺 */
+        .ruler{
+            top: 50%;
+            position: fixed;
+            background-color: red;
+            border: 2px solid black;
+        }
+        .right{
+            top:50%;
+            background-color: red;
+            border: 2px solid black;
+            position: absolute;
+            left:50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">高度使用100%
+            <ul>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+
+            </ul>
+            <div class="ruler">ruler</div>
+            <div class="right">absolute</div>
+        </div>
+    </div>
+</body>
+</html>
